@@ -1,0 +1,145 @@
+const NewsLetter = require('../models/NewsLetter');
+const NewsLetterAnexo=  require('../models/NewsLetterAnexo');
+const QuadroMsg = require('../models/QuadroMsg');
+const Evento = require('../models/Evento');
+const EventoData = require('../models/EventoData');
+const EventoDataHora = require('../models/EventoDataHora');
+const EventoParticipantes = require('../models/EventoParticipantes');
+const Empresa = require('../models/Empresa');
+const Login = require('../models/Login');
+const Modalidade = require('../models/Modalidade');
+const Perfil = require('../models/Perfil');
+const TipoPessoa = require('../models/TipoPessoa');
+const Pessoa = require('../models/Pessoa');
+const PessoaModalidade = require('../models/PessoaModalidade');
+const PessoaPerfil = require('../models/PessoaPerfil');
+const PessoaTipo = require('../models/PessoaTipo');
+const Treino = require('../models/Treino');
+const TreinoParticipante = require('../models/TreinoParticipante');
+
+NewsLetter.init(connection);
+NewsLetterAnexo.init(connection);
+QuadroMsg.init(connection);
+Evento.init(connection);
+EventoData.init(connection);
+EventoDataHora.init(connection);
+EventoParticipantes.init(connection);
+Empresa.init(connection);
+Login.init(connection);
+Modalidade.init(connection);
+Perfil.init(connection);
+TipoPessoa.init(connection);
+Pessoa.init(connection);
+PessoaModalidade.init(connection);
+PessoaPerfil.init(connection);
+PessoaTipo.init(connection);
+Treino.init(connection);
+TreinoParticipante.init(connection);
+
+
+NewsLetter
+NewsLetterAnexo
+QuadroMsg
+Evento
+EventoData
+EventoDataHora
+EventoParticipantes
+Empresa
+Login
+Modalidade
+Perfil
+TipoPessoa
+Pessoa
+PessoaModalidade
+PessoaPerfil
+PessoaTipo
+Treino
+TreinoParticipante
+
+NewsLetter.js
+NewsLetterAnexo.js
+QuadroMsg.js
+Evento.js
+EventoData.js
+EventoDataHora.js
+EventoParticipantes.js
+Empresa.js
+Login.js
+Modalidade.js
+Perfil.js
+TipoPessoa.js
+Pessoa.js
+PessoaModalidade.js
+PessoaPerfil.js
+PessoaTipo.js
+Treino.js
+TreinoParticipante.js
+
+
+
+ O volume na unidade D ‚ Noda
+ O N£mero de S‚rie do Volume ‚ 16FF-E0CD
+
+ Pasta de D:\AAACHSA\Sistema\backend\src\models
+
+25/07/2020  13:28    <DIR>          .
+25/07/2020  13:28    <DIR>          ..
+25/07/2020  13:22    <DIR>          avisos
+25/07/2020  13:23    <DIR>          evento
+25/07/2020  13:25    <DIR>          general
+25/07/2020  13:28                 0 models.txt
+25/07/2020  13:25    <DIR>          pessoa
+25/07/2020  13:24    <DIR>          treino
+               1 arquivo(s)              0 bytes
+
+ Pasta de D:\AAACHSA\Sistema\backend\src\models\avisos
+
+25/07/2020  13:22    <DIR>          .
+25/07/2020  13:22    <DIR>          ..
+25/07/2020  12:27                 0 NewsLetter.js
+25/07/2020  12:28                 0 NewsLetterAnexo.js
+25/07/2020  12:27                 0 QuadroMsg.js
+               3 arquivo(s)              0 bytes
+
+ Pasta de D:\AAACHSA\Sistema\backend\src\models\evento
+
+25/07/2020  13:23    <DIR>          .
+25/07/2020  13:23    <DIR>          ..
+25/07/2020  12:27                 0 Evento.js
+25/07/2020  12:27                 0 EventoData.js
+25/07/2020  12:27                 0 EventoDataHora.js
+25/07/2020  12:28                 0 EventoParticipantes.js
+               4 arquivo(s)              0 bytes
+
+ Pasta de D:\AAACHSA\Sistema\backend\src\models\general
+
+25/07/2020  13:25    <DIR>          .
+25/07/2020  13:25    <DIR>          ..
+25/07/2020  13:24               412 Empresa.js
+25/07/2020  13:25             1.109 Login.js
+25/07/2020  13:18                 0 Modalidade.js
+25/07/2020  13:20                 0 Perfil.js
+25/07/2020  13:20                 0 TipoPessoa.js
+               5 arquivo(s)          1.521 bytes
+
+ Pasta de D:\AAACHSA\Sistema\backend\src\models\pessoa
+
+25/07/2020  13:25    <DIR>          .
+25/07/2020  13:25    <DIR>          ..
+25/07/2020  13:25             1.337 Pessoa.js
+25/07/2020  13:17                 0 PessoaModalidade.js
+25/07/2020  12:29                 0 PessoaPerfil.js
+25/07/2020  12:29                 0 PessoaTipo.js
+               4 arquivo(s)          1.337 bytes
+
+ Pasta de D:\AAACHSA\Sistema\backend\src\models\treino
+
+25/07/2020  13:24    <DIR>          .
+25/07/2020  13:24    <DIR>          ..
+25/07/2020  12:29                 0 Treino.js
+25/07/2020  12:29                 0 TreinoParticipante.js
+               2 arquivo(s)              0 bytes
+
+     Total de Arquivos na Lista:
+              19 arquivo(s)          2.858 bytes
+              17 pasta(s)   665.636.270.080 bytes dispon¡veis

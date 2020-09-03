@@ -1,0 +1,6 @@
+node_modules
+galeria
+*.log
+.env
+*.rar
+*.zip

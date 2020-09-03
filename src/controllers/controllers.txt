@@ -1,0 +1,139 @@
+NewsLetterAnexoController
+NewsLetterController
+QuadroMsgController
+_sendErrorsDB
+EventoController
+EventoDataController
+EventoDataHoraController
+EventoParticipantesController
+EmpresaController
+LoginController
+ModalidadeControler
+PerfilController
+TipoPessoaController
+PessoaController
+PessoaModalidadeController
+PessoaPerfilController
+PessoaTipoController
+TreinoController
+TreinoParticipanteController
+
+const NewsLetterAnexoController = require('../controllers/avisos/NewsLetterAnexoController');
+const NewsLetterController = require('../controllers/avisos/NewsLetterController');
+const QuadroMsgController = require('../controllers/avisos/QuadroMsgController');
+const _sendErrorsDB = require('../controllers/common/_sendErrorsDB');
+const EventoController = require('../controllers/evento/EventoController');
+const EventoDataController = require('../controllers/evento/EventoDataController');
+const EventoDataHoraController = require('../controllers/evento/EventoDataHoraController');
+const EventoParticipantesController = require('../controllers/evento/EventoParticipantesController');
+const EmpresaController = require('../controllers/general/EmpresaController');
+const LoginController = require('../controllers/general/LoginController');
+const ModalidadeControler = require('../controllers/general/ModalidadeController');
+const PerfilController = require('../controllers/general/PerfilController');
+const TipoPessoaController = require('../controllers/general/TipoPessoaController');
+const PessoaController = require('../controllers/pessoa/PessoaController');
+const PessoaModalidadeController = require('../controllers/pessoa/PessoaModalidadeController');
+const PessoaPerfilController = require('../controllers/pessoa/PessoaPerfilController');
+const PessoaTipoController = require('../controllers/pessoa/PessoaTipoController');
+const TreinoController = require('../controllers/treino/TreinoController');
+const TreinoParticipanteController = require('../controllers/treino/TreinoParticipanteController');
+
+
+
+controllers\avisos\NewsLetterAnexoController
+controllers\avisos\NewsLetterController
+controllers\avisos\QuadroMsgController
+controllers\common\_sendErrorsDB
+controllers\evento\EventoController
+controllers\evento\EventoDataController
+controllers\evento\EventoDataHoraController
+controllers\evento\EventoParticipantesController
+controllers\general\EmpresaController
+controllers\general\LoginController
+controllers\general\ModalidadeController
+controllers\general\PerfilController
+controllers\general\TipoPessoaController
+controllers\pessoa\PessoaController
+controllers\pessoa\PessoaModalidadeController
+controllers\pessoa\PessoaPerfilController
+controllers\pessoa\PessoaTipoController
+controllers\treino\TreinoController
+controllers\treino\TreinoParticipanteController
+
+
+ 
+ 
+ O volume na unidade D ‚ Noda
+  O N£mero de S‚rie do Volume ‚ 16FF-E0CD
+
+ Pasta de D:\AAACHSA\Sistema\backend\src\controllers
+
+25/07/2020  13:37    <DIR>          .
+25/07/2020  13:37    <DIR>          ..
+25/07/2020  13:21    <DIR>          avisos
+25/07/2020  12:14    <DIR>          common
+25/07/2020  13:37                 0 controllers.txt
+25/07/2020  13:21    <DIR>          evento
+25/07/2020  13:21    <DIR>          general
+25/07/2020  13:22    <DIR>          pessoa
+25/07/2020  13:22    <DIR>          treino
+               1 arquivo(s)              0 bytes
+
+ Pasta de D:\AAACHSA\Sistema\backend\src\controllers\avisos\
+
+25/07/2020  13:21    <DIR>          .
+25/07/2020  13:21    <DIR>          ..
+25/07/2020  12:28                 0 controllers\avisos\NewsLetterAnexoController.js
+25/07/2020  12:27                 0 controllers\avisos\NewsLetterController.js
+25/07/2020  12:27                 0 controllers\avisos\QuadroMsgController.js
+               3 arquivo(s)              0 bytes
+
+ Pasta de D:\AAACHSA\Sistema\backend\src\controllers\common\
+
+25/07/2020  12:14    <DIR>          .
+25/07/2020  12:14    <DIR>          ..
+25/07/2020  12:14               239 controllers\common\_sendErrorsDB.js
+               1 arquivo(s)            239 bytes
+
+ Pasta de D:\AAACHSA\Sistema\backend\src\controllers\evento\
+
+25/07/2020  13:21    <DIR>          .
+25/07/2020  13:21    <DIR>          ..
+25/07/2020  12:27                 0 controllers\evento\EventoController.js
+25/07/2020  12:27                 0 controllers\evento\EventoDataController.js
+25/07/2020  12:27                 0 controllers\evento\EventoDataHoraController.js
+25/07/2020  12:28                 0 controllers\evento\EventoParticipantesController.js
+               4 arquivo(s)              0 bytes
+
+ Pasta de D:\AAACHSA\Sistema\backend\src\controllers\general\
+
+25/07/2020  13:21    <DIR>          .
+25/07/2020  13:21    <DIR>          ..
+25/07/2020  13:34               529 controllers\general\EmpresaController.js
+25/07/2020  13:34             2.892 controllers\general\LoginController.js
+25/07/2020  13:18                 0 controllers\general\ModalidadeControle.js
+25/07/2020  13:20                 0 controllers\general\PerfilController.js
+25/07/2020  13:20                 0 controllers\general\TipoPessoaController.js
+               5 arquivo(s)          3.421 bytes
+
+ Pasta de D:\AAACHSA\Sistema\backend\src\controllers\pessoa\
+
+25/07/2020  13:22    <DIR>          .
+25/07/2020  13:22    <DIR>          ..
+25/07/2020  13:34               639 controllers\pessoa\PessoaController.js
+25/07/2020  13:17                 0 controllers\pessoa\PessoaModalidadeController.js
+25/07/2020  12:29                 0 controllers\pessoa\PessoaPerfilController.js
+25/07/2020  12:29                 0 controllers\pessoa\PessoaTipoController.js
+               4 arquivo(s)            639 bytes
+
+ Pasta de D:\AAACHSA\Sistema\backend\src\controllers\treino\
+
+25/07/2020  13:22    <DIR>          .
+25/07/2020  13:22    <DIR>          ..
+25/07/2020  12:29                 0 controllers\treino\TreinoController.js
+25/07/2020  12:29                 0 controllers\treino\TreinoParticipanteController.js
+               2 arquivo(s)              0 bytes
+
+     Total de Arquivos na Lista:
+              20 arquivo(s)          4.299 bytes
+              20 pasta(s)   665.636.245.504 bytes dispon¡veis

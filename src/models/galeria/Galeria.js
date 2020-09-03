@@ -14,5 +14,4 @@ class Galeria extends Model {
         })
     }
 }
-
 module.exports = Galeria;

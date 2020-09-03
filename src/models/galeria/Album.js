@@ -14,4 +14,5 @@ class Album extends Model {
         })
     }
 }
+
 module.exports = Album;

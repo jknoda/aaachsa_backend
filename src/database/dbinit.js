@@ -20,8 +20,8 @@ const PessoaPerfil = require('../models/pessoa/PessoaPerfil');
 const PessoaTipo = require('../models/pessoa/PessoaTipo');
 const Treino = require('../models/treino/Treino');
 const TreinoParticipante = require('../models/treino/TreinoParticipante');
-const Album = require('../models/galeria/Album')
-const Galeria = require('../models/galeria/Galeria');
+//const Album = require('../models/galeria/Album')
+//const Galeria = require('../models/galeria/Galeria');
 
 NewsLetter.init(connection);
 NewsLetterAnexo.init(connection);
@@ -41,7 +41,7 @@ PessoaPerfil.init(connection);
 PessoaTipo.init(connection);
 Treino.init(connection);
 TreinoParticipante.init(connection);
-Album.init(connection);
-Galeria.init(connection);
+//Album.init(connection);
+//Galeria.init(connection);
 
 module.exports = connection;

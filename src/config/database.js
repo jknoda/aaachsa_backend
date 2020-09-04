@@ -8,3 +8,10 @@ module.exports = {
         timestamps: false
     }
 }
+
+/* 
+    heroku - variavel de ambiente: CLEARDB_DATABASE_URL
+    mysql://{user}:{password}@{host}/{bd}?reconnect=true
+    porta: 3306
+
+*/

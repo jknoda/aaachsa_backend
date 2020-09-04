@@ -31,6 +31,7 @@ module.exports = function (server) {
     const EmpresaController = require('../controllers/general/EmpresaController');
     protectedApi.post('/empresas', EmpresaController.create);
     protectedApi.get('/empresas/todas', EmpresaController.findAll);
+    protectedApi.get('/teste', EmpresaController.teste);
 
     const ModalidadeControler = require('../controllers/general/ModalidadeController');
     protectedApi.post('/modalidades/incluir', ModalidadeControler.create);

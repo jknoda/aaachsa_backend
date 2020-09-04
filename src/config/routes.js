@@ -9,7 +9,7 @@ module.exports = function (server) {
     const protectedApi = express.Router();
     server.use('/api', protectedApi);
 
-    //protectedApi.use(auth);
+    protectedApi.use(auth);
 
     // Avisos
     const NewsLetterAnexoController = require('../controllers/avisos/NewsLetterAnexoController');
@@ -30,8 +30,7 @@ module.exports = function (server) {
 
     const EmpresaController = require('../controllers/general/EmpresaController');
     protectedApi.post('/empresas', EmpresaController.create);
-    protectedApi.get('/empresas/todas', EmpresaController.findAll);
-    protectedApi.get('/teste', EmpresaController.teste);
+    protectedApi.get('/empresas/todas', EmpresaController.findAll);    
 
     const ModalidadeControler = require('../controllers/general/ModalidadeController');
     protectedApi.post('/modalidades/incluir', ModalidadeControler.create);
@@ -96,6 +95,7 @@ module.exports = function (server) {
     openApi.post('/login', LoginController.login);
     openApi.post('/signup', LoginController.signup);
     openApi.post('/validateToken', LoginController.validateToken);
-
+    
+    openApi.get('/teste', EmpresaController.teste);
 }
 

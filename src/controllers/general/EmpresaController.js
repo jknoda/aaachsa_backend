@@ -20,7 +20,7 @@ module.exports = {
             }
         );
         return res.json(empresas);
-    }
+    },
 
     teste(eq,res) {
         return res.json({retorno:'api ok'})
